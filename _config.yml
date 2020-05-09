@@ -100,4 +100,4 @@ theme: landscape
 deploy:
   type: git
   repo: git@github.com:dlnb-cc/dlnb-cc.github.io.git
-  branch: master
+  branch: public
