@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title:dlnb.blog
-subtitle:Having dream is what makes life tolerable.
-description:网站设计 网络安全 算法 数据库
+title: Hexo
+subtitle: ''
+description: ''
 keywords:
-author:小董
+author: John Doe
 language: en
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://dlnb-cc.github.io
+url: http://yoursite.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -98,6 +98,4 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@github.com:dlnb-cc/dlnb-cc.github.io.git
-  branch: master
+  type: ''
