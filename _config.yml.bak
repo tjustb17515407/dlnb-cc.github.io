@@ -93,7 +93,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hexo-theme-huhu
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -101,3 +101,14 @@ deploy:
   type: git
   repo: git@github.com:dlnb-cc/dlnb-cc.github.io.git
   branch: master
+jsonContent:
+  dateFormat: YYYY/MM/DD
+  pages: false
+  post:
+    tags: true
+    title: true
+    date: true
+    text: true
+    permalink: true
+    photos: true
+  file: content.json
